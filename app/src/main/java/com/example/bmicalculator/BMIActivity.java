@@ -67,13 +67,13 @@ public class BMIActivity extends AppCompatActivity {
         if(intBMI < 16){
             mBMIcategory.setText("Underweight (Severe thinness)");
             mBackground.setBackgroundColor(Color.RED);
-            mImageView.setImageResource(R.drawable.crosss);
+            mImageView.setImageResource(R.drawable.cancel);
         }
 
         else if(intBMI <= 16.9 && intBMI >=  16){
             mBMIcategory.setText("Underweight (Moderate thinness)");
             mBackground.setBackgroundColor(Color.RED);
-            mImageView.setImageResource(R.drawable.crosss);
+            mImageView.setImageResource(R.drawable.cancel);
         }
 
         else if(intBMI <= 18.4 && intBMI > 16.9){
@@ -103,13 +103,13 @@ public class BMIActivity extends AppCompatActivity {
         else if(intBMI <= 39.9 && intBMI >= 35){
             mBMIcategory.setText("Obese (Class II)");
             mBackground.setBackgroundColor(Color.RED);
-            mImageView.setImageResource(R.drawable.crosss);
+            mImageView.setImageResource(R.drawable.cancel);
         }
 
         else if(intBMI >= 40){
             mBMIcategory.setText("Obese (Class III)");
             mBackground.setBackgroundColor(Color.RED);
-            mImageView.setImageResource(R.drawable.crosss);
+            mImageView.setImageResource(R.drawable.cancel);
         }
 
         mBMIdisplay.setText(mBMI);
